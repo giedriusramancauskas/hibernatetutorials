@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.egit.source"
+      label="%featureName"
+      version="3.2.0.201312181205-r"
+      provider-name="%providerName"
+      plugin="org.eclipse.egit">
+
+   <description url="http://www.eclipse.org/egit/">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://download.eclipse.org/egit/updates"/>
+      <discovery label="%updateSiteName" url="http://download.eclipse.org/egit/updates"/>
+   </url>
+
+   <plugin
+         id="org.eclipse.egit.core.source"
+         download-size="225"
+         install-size="639"
+         version="3.2.0.201312181205-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.egit.ui.source"
+         download-size="1182"
+         install-size="3692"
+         version="3.2.0.201312181205-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.egit.mylyn.ui.source"
+         download-size="17"
+         install-size="33"
+         version="3.2.0.201312181205-r"
+         unpack="false"/>
+
+</feature>

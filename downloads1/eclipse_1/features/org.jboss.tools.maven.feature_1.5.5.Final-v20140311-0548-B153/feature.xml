@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.jboss.tools.maven.feature"
+      label="%featureName"
+      version="1.5.5.Final-v20140311-0548-B153"
+      provider-name="%providerName"
+      plugin="org.jboss.tools.maven.ui">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.m2e.feature" version="1.1.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.m2e.wtp.feature" version="0.16.0" match="greaterOrEqual"/>
+    </requires>
+
+   <plugin
+         id="org.jboss.tools.maven.core"
+         download-size="176"
+         install-size="296"
+         version="1.5.5.Final-v20140311-0548-B153"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.maven.ui"
+         download-size="153"
+         install-size="292"
+         version="1.5.5.Final-v20140311-0548-B153"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.maven.conversion.ui"
+         download-size="69"
+         install-size="127"
+         version="1.5.5.Final-v20140311-0548-B153"
+         unpack="false"/>         
+         
+</feature>

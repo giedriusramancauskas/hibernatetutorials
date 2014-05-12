@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.datatools.enablement.oda.designer.feature.source" version="1.11.2.v201309171554-337C8s73593K3F53B7" label="%featureName" provider-name="%providerName" image="eclipse_update_120.jpg"    >
+	<description >
+		%description
+	</description>
+	<copyright >
+		%featureCopyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<url>
+		<update url="http://download.eclipse.org/datatools/updates" label="%updateSiteName"/>
+		<discovery url="http://download.eclipse.org/datatools/updates" label="%updateSiteName"/>
+	</url>
+	<plugin id="org.eclipse.datatools.enablement.oda.ws.ui.source" version="1.2.6.v201308091040"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.enablement.oda.xml.ui.source" version="1.2.7.v201309031044"     unpack="false"/>
+</feature>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="oracle.eclipse.tools.coherence" image="oepe-40.png" label="%featureName" plugin="oracle.eclipse.tools.coherence" provider-name="%providerName" version="6.4.0.201403011416">
+
+   <description>
+      %featureDescription
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="license.html">
+      %license
+   </license>
+
+   <requires>
+      <import feature="oracle.eclipse.tools.javaee" version="6.4.0"/>
+      <import feature="oracle.eclipse.tools.weblogic" version="6.4.0"/>
+   </requires>
+
+   <plugin download-size="0" id="oracle.eclipse.tools.coherence" install-size="0" unpack="false" version="6.4.0.201403011416"/>
+   <plugin download-size="0" id="oracle.eclipse.tools.coherence.ui" install-size="0" unpack="false" version="6.4.0.201403011416"/>
+   <plugin download-size="0" id="oracle.eclipse.tools.coherence.doc" install-size="0" unpack="false" version="6.4.0.201403011416"/>
+
+</feature>

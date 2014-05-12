@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ecf.eventadmin.source.feature"
+      label="Source for ECF Distributed EventAdmin"
+      version="2.0.0.v20130605-1748"
+      provider-name="%providerName">
+
+   <description url="http://www.eclipse.org/ecf">
+      Generated source feature. The original description is:
+
+This feature provides the ECF Distributed EventAdmin API.
+   </description>
+
+   <copyright>
+      #################################################
+# Copyright (c) 2010 Composent, Inc. and others. All rights reserved.
+# This program and the accompanying materials are made available under the 
+# terms of the Eclipse Public License v1.0 which accompanies this 
+# distribution, and is available at 
+# http://www.eclipse.org/legal/epl-v10.html
+#
+# Contributors: Composent, Inc. - initial API and implementation
+#################################################
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.ecf.provider.source"
+         download-size="0"
+         install-size="0"
+         version="4.3.100.v20130605-1748"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.remoteservice.eventadmin.source"
+         download-size="0"
+         install-size="0"
+         version="1.1.100.v20130605-1748"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.sharedobject.source"
+         download-size="0"
+         install-size="0"
+         version="2.3.0.v20130605-1748"
+         unpack="false"/>
+
+</feature>

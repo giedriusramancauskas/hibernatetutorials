@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.datatools.connectivity.oda.feature.source" version="1.11.2.v201309171554-7H7D7dCcNBHTESGlDZXh" label="%featureName" provider-name="%providerName" image="eclipse_update_120.jpg"    >
+	<description >
+		%description
+	</description>
+	<copyright >
+		%featureCopyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<url>
+		<update url="http://download.eclipse.org/datatools/updates" label="%updateSiteName"/>
+		<discovery url="http://download.eclipse.org/datatools/updates" label="%updateSiteName"/>
+	</url>
+	<plugin id="org.eclipse.datatools.connectivity.oda.consumer.source" version="3.2.6.v201305170644"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.connectivity.oda.design.source" version="3.3.6.v201212070447"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.connectivity.oda.flatfile.source" version="3.1.7.v201311081026"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.connectivity.oda.profile.source" version="3.2.9.v201307270622"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.connectivity.oda.source" version="3.4.2.v201311051159"     unpack="false"/>
+	<plugin id="org.eclipse.datatools.connectivity.source" version="1.2.11.v201401230755"     unpack="false"/>
+</feature>

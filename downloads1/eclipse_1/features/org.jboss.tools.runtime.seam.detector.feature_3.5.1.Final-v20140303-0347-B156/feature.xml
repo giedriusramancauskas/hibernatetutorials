@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.jboss.tools.runtime.seam.detector.feature"
+      label="%featureName"
+      version="3.5.1.Final-v20140303-0347-B156"
+      provider-name="%providerName"
+      plugin="org.jboss.tools.runtime.seam.detector">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.jboss.tools.runtime.seam.detector"
+         download-size="15"
+         install-size="25"
+         version="3.5.1.Final-v20140303-0347-B156"
+         unpack="false"/>
+
+</feature>

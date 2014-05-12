@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.mylyn.docs.intent.exporter.feature"
+      label="%featureName"
+      version="0.8.1.201308291003"
+      provider-name="%providerName"
+      plugin="org.eclipse.mylyn.docs.intent.exporter">
+
+   <description url="http://www.example.com/description">
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.mylyn.docs.intent.exporter"
+         download-size="481"
+         install-size="1630"
+         version="0.8.1.201308291003"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.docs.intent.exporter.ui"
+         download-size="21"
+         install-size="40"
+         version="0.8.1.201308291003"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.docs.intent.exporter.client"
+         download-size="10"
+         install-size="19"
+         version="0.8.1.201308291003"
+         unpack="false"/>
+
+</feature>

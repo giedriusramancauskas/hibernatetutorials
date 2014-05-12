@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.datatools.sqldevtools.ddl.feature.source" version="1.11.2.v201309171554-27A178B08EG8S_IRVNeUiL6au" label="%featureName" provider-name="%providerName" image="eclipse_update_120.jpg"    >
+	<description >
+		%description
+	</description>
+	<copyright >
+		%featureCopyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<url>
+		<update url="http://download.eclipse.org/datatools/updates" label="%updateSiteName"/>
+		<discovery url="http://download.eclipse.org/datatools/updates" label="%updateSiteName"/>
+	</url>
+</feature>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.jboss.tools.vpe.feature"
+      label="%featureName"
+      version="3.5.1.Final-v20140303-0018-B169"
+      provider-name="%providerName">
+
+   <description url="http://www.jboss.org/tools">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.jboss.tools.vpe"
+         download-size="789"
+         install-size="894"
+         version="3.5.1.Final-v20140303-0018-B169"/>
+
+   <plugin
+         id="org.jboss.tools.vpe.docbook"
+         download-size="19"
+         install-size="94"
+         version="3.5.1.Final-v20140303-0018-B169"/>
+
+   <plugin
+         id="org.jboss.tools.vpe.html"
+         download-size="20"
+         install-size="116"
+         version="3.5.1.Final-v20140303-0018-B169"/>
+
+   <plugin
+         id="org.jboss.tools.vpe.jsp"
+         download-size="5"
+         install-size="7"
+         version="3.5.1.Final-v20140303-0018-B169"/>
+
+   <plugin
+         id="org.jboss.tools.vpe.resref"
+         download-size="54"
+         install-size="98"
+         version="3.5.1.Final-v20140303-0018-B169"/>
+
+   <plugin
+         id="org.jboss.tools.vpe.ui.palette"
+         download-size="4"
+         install-size="4"
+         version="3.5.1.Final-v20140303-0018-B169"/>
+
+   <plugin
+         id="org.jboss.tools.vpe.xulrunner"
+         download-size="77"
+         install-size="187"
+         version="3.5.1.Final-v20140303-0018-B169"/>
+
+   <plugin
+         id="org.jboss.tools.vpe.spring"
+         download-size="11"
+         install-size="29"
+         version="3.5.1.Final-v20140303-0018-B169"/>
+
+   <plugin
+         id="org.jboss.tools.xulrunner.initializer"
+         download-size="9"
+         install-size="10"
+         version="3.5.1.Final-v20140303-0018-B169"
+         fragment="true"/>
+
+</feature>

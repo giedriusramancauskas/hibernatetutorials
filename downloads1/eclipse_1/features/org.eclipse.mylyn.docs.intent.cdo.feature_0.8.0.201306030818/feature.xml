@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (c) 2010, 2011 Obeo.
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the Eclipse Public License v1.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+
+Contributors:
+    Obeo - initial API and implementation
+-->
+<feature
+      id="org.eclipse.mylyn.docs.intent.cdo.feature"
+      label="%featureName"
+      version="0.8.0.201306030818"
+      provider-name="%providerName"
+      plugin="org.eclipse.mylyn.docs.intent.client.ui.cdo">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <discovery label="Orbit" url="http://download.eclipse.org/tools/orbit/downloads/drops/S20120308061416/repository/"/>
+      <discovery label="Acceleo 3.3" url="http://download.eclipse.org/modeling/m2t/acceleo/updates/interim/3.3"/>
+      <discovery label="EMF Compare 1.3" url="http://download.eclipse.org/modeling/emf/compare/updates/milestones/1.3/"/>
+   </url>
+
+   <requires>
+      <import feature="org.eclipse.mylyn.docs.intent.feature" version="0.7.0.qualifier"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.mylyn.docs.intent.collab.cdo"
+         download-size="22"
+         install-size="43"
+         version="0.8.0.201306030818"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.docs.intent.client.ui.cdo"
+         download-size="21"
+         install-size="39"
+         version="0.8.0.201306030818"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.docs.intent.example.cdo.server"
+         download-size="6"
+         install-size="12"
+         version="0.8.0.201306030818"/>
+
+   <plugin
+         id="org.eclipse.mylyn.docs.intent.test.server"
+         download-size="8"
+         install-size="15"
+         version="0.8.0.201306030818"
+         unpack="false"/>
+
+</feature>

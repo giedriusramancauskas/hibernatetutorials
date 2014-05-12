@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.jboss.tools.project.examples.feature"
+      label="%featureName"
+      version="1.5.4.Final-v20140311-0548-B153"
+      provider-name="%providerName"
+      plugin="org.jboss.tools.project.examples">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.jboss.tools.project.examples"
+         download-size="301"
+         install-size="616"
+         version="1.5.4.Final-v20140311-0548-B153"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.project.examples.cheatsheet"
+         download-size="46"
+         install-size="85"
+         version="1.5.4.Final-v20140311-0548-B153"
+         unpack="false"/>
+
+</feature>

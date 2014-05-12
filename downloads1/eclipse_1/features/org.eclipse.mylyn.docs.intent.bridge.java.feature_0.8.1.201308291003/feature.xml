@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.mylyn.docs.intent.bridge.java.feature"
+      label="%featureName"
+      version="0.8.1.201308291003"
+      provider-name="%providerName"
+      plugin="org.eclipse.mylyn.docs.intent.bridge.java">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.mylyn.docs.intent.bridge.java"
+         download-size="67"
+         install-size="144"
+         version="0.8.1.201308291003"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.docs.intent.bridge.java.edit"
+         download-size="41"
+         install-size="80"
+         version="0.8.1.201308291003"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.docs.intent.bridge.java.editor"
+         download-size="66"
+         install-size="130"
+         version="0.8.1.201308291003"
+         unpack="false"/>
+
+</feature>

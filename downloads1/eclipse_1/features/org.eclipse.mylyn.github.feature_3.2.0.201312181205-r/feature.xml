@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.mylyn.github.feature"
+      label="%featureName"
+      version="3.2.0.201312181205-r"
+      provider-name="%providerName"
+      plugin="org.eclipse.egit">
+
+   <description url="http://www.eclipse.org/egit">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="license.html">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.mylyn_feature" version="3.7.0" match="greaterOrEqual"/>
+      <import plugin="com.google.gson" version="1.6" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.mylyn.github.core"
+         download-size="70"
+         install-size="159"
+         version="3.2.0.201312181205-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.github.ui"
+         download-size="226"
+         install-size="490"
+         version="3.2.0.201312181205-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.egit.github.core"
+         download-size="216"
+         install-size="492"
+         version="3.2.0.201312181205-r"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.gson"
+         download-size="196"
+         install-size="394"
+         version="2.1.0.v201303041604"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.github.doc"
+         download-size="234"
+         install-size="253"
+         version="3.2.0.201312181205-r"/>
+
+</feature>

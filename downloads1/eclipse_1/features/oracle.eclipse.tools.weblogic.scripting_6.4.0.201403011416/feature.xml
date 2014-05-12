@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="oracle.eclipse.tools.weblogic.scripting" image="oepe-40.png" label="%featureName" plugin="oracle.eclipse.tools.weblogic.scripting" provider-name="%providerName" version="6.4.0.201403011416">
+
+   <description>
+      %featureDescription
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="license.html">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.python.pydev.feature" match="equivalent" version="2.7.5"/>
+      <import feature="oracle.eclipse.tools.weblogic" version="6.4.0"/>
+   </requires>
+
+   <plugin download-size="0" id="oracle.eclipse.tools.weblogic.scripting" install-size="0" unpack="false" version="6.4.0.201403011416"/>
+   <plugin download-size="0" id="oracle.eclipse.tools.weblogic.scripting.ui" install-size="0" unpack="false" version="6.4.0.201403011416"/>
+
+</feature>
