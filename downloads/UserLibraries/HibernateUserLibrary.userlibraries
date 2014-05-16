@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<eclipse-userlibraries version="2">
+    <library name="Hibernate3.0" systemlibrary="false">
+        <archive path="C:/Users/ramancauskasg/Documents/Installations/hibernateLessons/downloads/db-derby-10.10.2.0-bin/lib/derbyclient.jar"/>
+        <archive path="C:/Users/ramancauskasg/Documents/Installations/hibernateLessons/downloads/hibernate-distribution-3.3.2.GA/hibernate3.jar"/>
+        <archive path="C:/Users/ramancauskasg/Documents/Installations/hibernateLessons/downloads/hibernate-distribution-3.3.2.GA/lib/required/slf4j-api-1.5.8.jar"/>
+        <archive path="C:/Users/ramancauskasg/Documents/Installations/hibernateLessons/downloads/hibernate-distribution-3.3.2.GA/lib/required/jta-1.1.jar"/>
+        <archive path="C:/Users/ramancauskasg/Documents/Installations/hibernateLessons/downloads/hibernate-distribution-3.3.2.GA/lib/required/javassist-3.9.0.GA.jar"/>
+        <archive path="C:/Users/ramancauskasg/Documents/Installations/hibernateLessons/downloads/hibernate-distribution-3.3.2.GA/lib/required/dom4j-1.6.1.jar"/>
+        <archive path="C:/Users/ramancauskasg/Documents/Installations/hibernateLessons/downloads/hibernate-distribution-3.3.2.GA/lib/required/commons-collections-3.1.jar"/>
+        <archive path="C:/Users/ramancauskasg/Documents/Installations/hibernateLessons/downloads/hibernate-distribution-3.3.2.GA/lib/required/antlr-2.7.6.jar"/>
+        <archive path="C:/Users/ramancauskasg/Documents/Installations/hibernateLessons/downloads/hibernate-distribution-3.3.2.GA/lib/bytecode/cglib/cglib-2.2.jar"/>
+        <archive path="C:/Users/ramancauskasg/Documents/Installations/hibernateLessons/downloads/hibernate-annotations-3.4.0.GA/hibernate-annotations.jar"/>
+        <archive path="C:/Users/ramancauskasg/Documents/Installations/hibernateLessons/downloads/hibernate-annotations-3.4.0.GA/lib/hibernate-commons-annotations.jar"/>
+        <archive path="C:/Users/ramancauskasg/Documents/Installations/hibernateLessons/downloads/hibernate-annotations-3.4.0.GA/lib/ejb3-persistence.jar"/>
+        <archive path="C:/Users/ramancauskasg/Documents/Installations/hibernateLessons/downloads/hibernate-annotations-3.4.0.GA/lib/test/slf4j-log4j12.jar"/>
+        <archive path="C:/Users/ramancauskasg/Documents/Installations/hibernateLessons/downloads/hibernate-annotations-3.4.0.GA/lib/test/log4j.jar"/>
+    </library>
+</eclipse-userlibraries>
