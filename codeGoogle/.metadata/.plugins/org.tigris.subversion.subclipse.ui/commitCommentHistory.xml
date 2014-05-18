@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CommitComments>	<CommitComment>Added Hibernate3.0MAC user library to the project</CommitComment>
+<CommitComments>	<CommitComment>removing unzipped directories,as they unziping process creates files which are platform dependent</CommitComment>
+	<CommitComment>Added Hibernate3.0MAC user library to the project</CommitComment>
 	<CommitComment>First Commit from Mac
 </CommitComment>
 	<CommitComment>Adding updates from MAC.</CommitComment>
