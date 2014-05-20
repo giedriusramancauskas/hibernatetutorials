@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<eclipse-userlibraries version="2">
+    <library name="Hibernate3.0MAC" systemlibrary="false">
+        <archive path="/Users/optimusp/Documents/hibernateLessons/downloads/db-derby-10.10.2.0-bin MAC/lib/derbyclient.jar"/>
+        <archive path="/Users/optimusp/Documents/hibernateLessons/downloads/hibernate-distribution-3.3.2.GA MAC/hibernate3.jar"/>
+        <archive path="/Users/optimusp/Documents/hibernateLessons/downloads/hibernate-distribution-3.3.2.GA MAC/lib/required/slf4j-api-1.5.8.jar"/>
+        <archive path="/Users/optimusp/Documents/hibernateLessons/downloads/hibernate-distribution-3.3.2.GA MAC/lib/required/javassist-3.9.0.GA.jar"/>
+        <archive path="/Users/optimusp/Documents/hibernateLessons/downloads/hibernate-distribution-3.3.2.GA MAC/lib/required/commons-collections-3.1.jar"/>
+        <archive path="/Users/optimusp/Documents/hibernateLessons/downloads/hibernate-distribution-3.3.2.GA MAC/lib/required/dom4j-1.6.1.jar"/>
+        <archive path="/Users/optimusp/Documents/hibernateLessons/downloads/hibernate-distribution-3.3.2.GA MAC/lib/required/jta-1.1.jar"/>
+        <archive path="/Users/optimusp/Documents/hibernateLessons/downloads/hibernate-distribution-3.3.2.GA MAC/lib/required/antlr-2.7.6.jar"/>
+        <archive path="/Users/optimusp/Documents/hibernateLessons/downloads/hibernate-distribution-3.3.2.GA MAC/lib/bytecode/cglib/cglib-2.2.jar"/>
+        <archive path="/Users/optimusp/Documents/hibernateLessons/downloads/hibernate-annotations-3.4.0.GA MAC/hibernate-annotations.jar"/>
+        <archive path="/Users/optimusp/Documents/hibernateLessons/downloads/hibernate-annotations-3.4.0.GA MAC/lib/ejb3-persistence.jar"/>
+        <archive path="/Users/optimusp/Documents/hibernateLessons/downloads/hibernate-annotations-3.4.0.GA MAC/lib/hibernate-commons-annotations.jar"/>
+        <archive path="/Users/optimusp/Documents/hibernateLessons/downloads/hibernate-annotations-3.4.0.GA MAC/lib/test/log4j.jar"/>
+        <archive path="/Users/optimusp/Documents/hibernateLessons/downloads/hibernate-annotations-3.4.0.GA MAC/lib/test/slf4j-log4j12.jar"/>
+    </library>
+</eclipse-userlibraries>

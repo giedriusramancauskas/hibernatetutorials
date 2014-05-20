@@ -1,0 +1,157 @@
+Android Development SET UP:
+
+Installing Android ADT plugin
+
+1.	Search Google for “android ADT” (developer.android.com/sdk/eclipse-adt.html)
+2.	Select Download and Scroll down to the section “Download the ADT Plugin”
+3.	Copy the link (https://dl-ssl.google.com/android/eclipse/)
+4.	Open Eclipse IDE and select ‘Help’ Tab
+5.	Select ‘Install new software’
+6.	Paste the copied link into the search window and click ‘Add’
+7.	Give the name ‘android adt’
+8.	Select Developer Tools and click Next
+9.	Click next again, accept the license, click Finish
+
+Installing Android SDK
+
+1.	Search Google for “android SDK” (http://developer.android.com/sdk/index.html?hl=sk)
+2.	Select ‘Download’ tab, select ‘Download for other platforms’
+3.	Select SDK for your platform and download to your local disk
+4.	Unzip the file and move folder to c:/ on windows or Macintosh HD on Mac
+5.	Run Android manager (Windows)
+6.	Run Android manager (Mac OSX) found in the unzipped folder (tools-android)
+7.	In the manager select from ‘Available packages’:
+•	Android API 2.2 or greater
+•	Select third party add-ons like Google maps
+•	Click install and accept license
+
+Setting up Virtual Devices:
+1.	In Android SDK manager select virtual devices
+2.	Click New and give name ‘droidX’
+3.	For target select the API You will be working with
+4.	Set size to 100
+5.	Click Create
+
+Setting up Project:
+
+1.	Open Eclipse – Preferences – Android
+2.	For sdk location browse to the unzipped Android SDK folder and click OK
+3.	Select Your API, select Apply, click OK
+4.	In the Project Explorer, right click and Select New – Other – Android Project
+5.	Give the name to it, select API, give the name to the package com.theappname.test
+6.	Select ‘Create Activity’ name it as ‘startingpoint’
+7.	Click Finish
+
+
+ENVIRONMENTS FOR APPLICATION FRAMEWORKS
+
+
+INSTALLING DERBY DATABASE
+
+In the derby unzipped folder find folder bin and click “startNetworkServer”
+
+Open Database Development perspective
+1.	Right click on Database Connections Select New
+2.	Select Derby and give it a name “HibernateConnection”, click OK
+3.	Specify driver details, by clicking little round symbol "New Driver Definition"
+4.	Select Derby client JDBC
+5.	Open tab Jar list
+6.	Click Add Jar, and navigate to derby unzipped folder "lib" and select "derbyclient.jar"
+7.	Remove the old jar file 
+8.	Open properties tab
+9.	Copy the URL and Driver Class to the notepad and click OK
+10.	Give the name to the database "HibernateDb"
+11.	Give the new password, can select "Save password"
+12.	Click on test connection "Ping succeeded"
+13.	Copy new connection URL to notepad
+14.	Click finish
+15.	
+16.	
+17.	INSTALLING HIBERNATE
+
+
+
+Creating USER LIBRARY for HIBERNATE enviroment:
+
+18.	Go preferences and type user
+19.	 Select User Libraries from Java Build path
+20.	Select New and give name “Hibernate3.0”, click OK
+21.	Click add jars, and make sure Hibernate3.0 is ALWAYS SELECTED before you add JAR
+22.	 Jar files to ADD list:
+•	derbyclient.jar - C:\db-derby-10.6.1.0-bin\db-derby-10.6.1.0-bin\lib
+•	hibernate3.jar - ..\..\hibernate-distribution-3.3.2.GA
+•	antlr-2.7.6.jar – ..\..\hibernate-distribution-3.3.2.GA\lib\required
+•	common-collections-3.1.jar - ..\..\hibernate-distribution-3.3.2.GA\lib\required
+•	dom4j-1.6.1.jar - ..\..\hibernate-distribution-3.3.2.GA\lib\required
+•	javassist-3.9.0.GA.jar - ..\..\hibernate-distribution-3.3.2.GA\lib\required
+•	jta-1.1.jar - ..\..\hibernate-distribution-3.3.2.GA\lib\required
+•	slf4j-api-1.5.8.jar - ..\..\hibernate-distribution-3.3.2.GA\lib\required
+•	cglib-2.2.jar - ..\..\hibernate-distribution-3.3.2.GA\lib\bytecode\cglib
+•	hibernate-annotations.jar - ..\..\hibernate-annotations-3.4.0.GA\
+•	ejb3-persistence.jar - ..\..\hibernate-annotations-3.4.0.GA\lib
+•	hibernate-commons-annotations.jar - ..\..\hibernate-annotations-3.4.0.GA\lib
+•	log4j.jar - ..\..\hibernate-annotations-3.4.0.GA\lib\test
+•	slf4j-log4j12.jar - ..\..\hibernate-annotations-3.4.0.GA\lib\test
+
+Click OK
+
+Adding The Libraries To Project
+
+	1.	Go to Java Perspective and right click on the project
+	2.	Select Properties, Select Java Build Path
+	3.	Select Libraries, Click Add Library
+	4.	Select User Library, Click next
+	5.	Select User library just created "Hibernate3.0"
+	6.	Click Finish
+	7.	Click OK
+
+
+Configuration between HIBERNATE and DATABASE
+
+	1.	Go to Derby distribution folder, go to Projects folder
+	2.	go to Tutorials folder, goto web folder, goto src folder, goto main folder, resources
+	3.	..\..\projects\tutorials\web\src\main\resources\
+	4.	Copy "hibernate.cfg.xml" and "log4j.properties" 
+	5.	in Eclipse, right click on the source folder in the project
+	6.	Click Paste
+	7.	OPEN "hibernate.cfg.xml"
+	8.	Click on source
+	9.	Change connection.driver_class value to our saved one
+	10.	Change connection.url value to our saved one
+	11.	Change connection.username value to our saved one
+	12.	Change connection.password value to our saved one
+	13.	Change dialect value to one which can be found in user library "Hibernate3.0" (org.hibernate.dialect), so it would read: "org.hibernate.dialect.DerbyDialect"
+	14.	Change "current_session_context_class" value to "thread"
+	15.	Comment out properties "hbm2dll.auto" , mapping resource ones
+	16.	For commenting out just select these three lines and select comment out
+	17.	Click Save All
+	18.	
+
+
+Eclipse environment with JBOSS and Hibernate Tools
+
+Installing JBOSS
+
+Find the stable version of the hibernate plugin (Zip or URL for auto update) in the below URL. http://www.jboss.org/tools/download or you can also view the installation page on the Eclipse Marketplace
+Otherwise most convenient and safest way is to use JBoss update site within Eclipse software updates (Help -> Software Updates... -> Add Site...):
+The latest stable release update site for JBoss Tools (http://download.jboss.org/jbosstools/updates/stable/)
+There you can find Hibernate tools together with other handy JBoss plugins.
+Do not install everything though. You just need:
+ï	The entire All JBoss Tools 3.2.0 section
+ï	Hibernate Tools (HT) from Application Development
+ï	HT from Data Services
+ï	JBoss Maven Hibernate Configurator from Maven Support and
+ï	HT from Web and Java EE Development
+That's all!
+In 2013, you will be probably using the latest versions of Eclipse and Hibernate. For Eclipse-4.2.2. and JBoss Tools 4.0 you need:
+ï	From the Abridged JBoss Tools 4.0, the JBoss Hibenate Tools section
+ï	Hibernate Tools (HT) from Application Development
+ï	HT from JBoss Data Services
+ï	JBoss Maven Hibernate Configurator from Maven Support and
+ï	HT from Web and Java EE Development
+Then you are ready to go!
+
+Eclipse environment with SPRING application Framework
+
+
+

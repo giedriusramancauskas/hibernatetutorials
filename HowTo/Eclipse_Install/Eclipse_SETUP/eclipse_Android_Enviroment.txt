@@ -1,0 +1,43 @@
+Android Development SET UP:
+
+Installing Android ADT plugin
+
+1.	Search Google for “android ADT” (developer.android.com/sdk/eclipse-adt.html)
+2.	Select Download and Scroll down to the section “Download the ADT Plugin”
+3.	Copy the link (https://dl-ssl.google.com/android/eclipse/)
+4.	Open Eclipse IDE and select ‘Help’ Tab
+5.	Select ‘Install new software’
+6.	Paste the copied link into the search window and click ‘Add’
+7.	Give the name ‘android adt’
+8.	Select Developer Tools and click Next
+9.	Click next again, accept the license, click Finish
+
+Installing Android SDK
+
+1.	Search Google for “android SDK” (http://developer.android.com/sdk/index.html?hl=sk)
+2.	Select ‘Download’ tab, select ‘Download for other platforms’
+3.	Select SDK for your platform and download to your local disk
+4.	Uzzip the file and move folder to c:/ on windows or Macintosh HD on Mac
+5.	Run Android manager (Windows)
+6.	Run Android manager (Mac OSX) found in the unzipped folder (tools-android)
+7.	In the manager select from ‘Available packages’:
+•	Android API 2.2 or greater
+•	Select third party add-ons like Google maps
+•	Click install and accept license
+
+Setting up Virtual Devices:
+1.	In Android SDK manager select virtual devices
+2.	Click New and give name ‘droidX’
+3.	For target select the API You will be working with
+4.	Set size to 100
+5.	Click Create
+
+Setting up Project:
+
+1.	Open Eclipse – Preferences – Android
+2.	For sdk location browse to the unzipped Android SDK folder and click OK
+3.	Select Your API, select Apply, click OK
+4.	In the Project Explorer, right click and Select New – Other – Android Project
+5.	Give the name to it, select API, give the name to the package com.theappname.test
+6.	Select ‘Create Activity’ name it as ‘startingpoint’
+7.	Click Finish
