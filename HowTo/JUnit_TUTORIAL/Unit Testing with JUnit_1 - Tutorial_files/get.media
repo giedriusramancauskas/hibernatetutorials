@@ -1,0 +1,4 @@
+{var dz=document;
+dz.writeln("<SCRIPT language='JavaScript1.1' SRC=\"http://ad.doubleclick.net/adj/N4988.140467.VALUECLICKUK/B6502053.107320937;sz=160x600;click=http://media.fastclick.net/w/click.here?cid=553341&mid=1083200&m=3&sid=88861&c=0&tp=7&UD=iAHAjkKQAf3iIZgBnbYFoAEDqAEH8AEA&upsid=797880908176&forced_click=;ord=20140520145819?\">");
+dz.writeln("<\/script><script type=\"text/javascript\">(function(){document.write('<span id=\"te-clearads-js-393892180_7_1083200\"><sc'+'ript type=\"text/javascript\" src=\"'+((\"https:\"==document.location.protocol)?\"https\":\"http\")+'://choices.truste.com/ca?pid=valueclick01&aid=valueclickeu02&cid=2&c=393892180_7_1083200&w=160&h=600&plc=tr&admarker=dynamic\"></scr'+'ipt></span>');}());<\/script>");
+dz.writeln("");}

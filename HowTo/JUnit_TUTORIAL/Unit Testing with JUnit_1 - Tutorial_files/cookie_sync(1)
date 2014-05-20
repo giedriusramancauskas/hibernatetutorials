@@ -1,0 +1,1 @@
+syncUser({"syncUrls" : [{"syncUrl" : "http://dpm.demdex.net/ibs:dpid=530&dpuuid=7978809B52341&redir=http://sync.fastclick.net/ad/im/10858-64082-1039-0?mpaltsys=16&id=${DD_UUID}","iframe" : 0},{"syncUrl" : "http://vcm-match.dotomi.com/dmm/vc/match?id=797880908176","iframe" : 1}]});

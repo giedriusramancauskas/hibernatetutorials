@@ -1,0 +1,115 @@
+document.write('\x3c!-- Copyright 2014 DoubleClick, a division of Google Inc. All rights reserved. --\x3e\n\x3c!-- Code auto-generated on Tue Apr 29 12:35:52 PDT 2014 --\x3e\n\x3cscript src\x3d\x22http://s0.2mdn.net/879366/flashwrite_1_2.js\x22\x3e\x3c/script\x3e\n');function DCFlash(id,pVM){
+var swf = "http://s0.2mdn.net/1813637/1-UK_English_A2C_US_160x600.swf";
+var gif = "http://s0.2mdn.net/1813637/1-UK_English_A2C_US_160x600.gif";
+var minV = 8;
+var FWH = ' width="160" height="600" ';
+var url = escape("http://adclick.g.doubleclick.net/aclk?sa=L&ai=B6mx_i217U5GnCqSmigaFs4HYBQAAAAAQASAAOABQns_fpP7_____AViI9bgbYLv2rIPQCoIBCWNhLWdvb2dsZbIBD3d3dy52b2dlbGxhLmNvbcgBCagDAeAEApoFGAiMnUkQ6ayWMxjayOmFASCI9bgbKIXZbtoFAggBoAYf4AaF2W4&num=0&sig=AOD64_2RN0lmESfbXTHa6IQFix6jKfEu3g&client=&adurl=http://media.fastclick.net/w/click.here%3Fcid%3D553341%26mid%3D1083200%26m%3D3%26sid%3D88861%26c%3D0%26tp%3D7%26UD%3DiAHAjkKQAf3iIZgBnbYFoAEDqAEH8AEA%26upsid%3D797880908176%26forced_click%3Dhttps://www.westernunion.co.uk/gb/Home.page%253Fsrc%253DAffiliates_Partnerships_UK");
+var fscUrl = url;
+var fscUrlClickTagFound = false;
+var wmode = "opaque";
+var bg = "";
+var dcallowscriptaccess = "never";
+
+var openWindow = "false";
+var winW = 0;
+var winH = 0;
+var winL = 0;
+var winT = 0;
+
+var moviePath=swf.substring(0,swf.lastIndexOf("/"));
+var sm=new Array();
+
+
+var defaultCtVal = escape("http://adclick.g.doubleclick.net/aclk?sa=L&ai=B6mx_i217U5GnCqSmigaFs4HYBQAAAAAQASAAOABQns_fpP7_____AViI9bgbYLv2rIPQCoIBCWNhLWdvb2dsZbIBD3d3dy52b2dlbGxhLmNvbcgBCagDAeAEApoFGAiMnUkQ6ayWMxjayOmFASCI9bgbKIXZbtoFAggBoAYf4AaF2W4&num=0&sig=AOD64_2RN0lmESfbXTHa6IQFix6jKfEu3g&client=&adurl=http://media.fastclick.net/w/click.here%3Fcid%3D553341%26mid%3D1083200%26m%3D3%26sid%3D88861%26c%3D0%26tp%3D7%26UD%3DiAHAjkKQAf3iIZgBnbYFoAEDqAEH8AEA%26upsid%3D797880908176%26forced_click%3Dhttps://www.westernunion.co.uk/gb/Home.page%253Fsrc%253DAffiliates_Partnerships_UK");
+var ctp=new Array();
+var ctv=new Array();
+ctp[0] = "clickTag";
+ctv[0] = "";
+
+
+var fv='"moviePath='+moviePath+'/'+'&moviepath='+moviePath+'/';
+for(i=1;i<sm.length;i++){if(sm[i]!=""){fv+="&submovie"+i+"="+escape(sm[i]);}}
+for(var ctIndex = 0; ctIndex < ctp.length; ctIndex++) {
+  var ctParam = ctp[ctIndex];
+  var ctVal = ctv[ctIndex];
+  if(ctVal != null && typeof(ctVal) == 'string') {
+    if(ctVal == "") {
+      ctVal = defaultCtVal;
+    }
+    else {
+      ctVal = escape("http://adclick.g.doubleclick.net/aclk?sa=L&ai=B6mx_i217U5GnCqSmigaFs4HYBQAAAAAQASAAOABQns_fpP7_____AViI9bgbYLv2rIPQCoIBCWNhLWdvb2dsZbIBD3d3dy52b2dlbGxhLmNvbcgBCagDAeAEApoFGAiMnUkQ6ayWMxjayOmFASCI9bgbKIXZbtoFAggBoAYf4AaF2W4&num=0&sig=AOD64_2RN0lmESfbXTHa6IQFix6jKfEu3g&client=&adurl=http://media.fastclick.net/w/click.here%3Fcid%3D553341%26mid%3D1083200%26m%3D3%26sid%3D88861%26c%3D0%26tp%3D7%26UD%3DiAHAjkKQAf3iIZgBnbYFoAEDqAEH8AEA%26upsid%3D797880908176%26forced_click%3D" + ctVal);
+    }
+    if(ctParam.toLowerCase() == "clicktag") {
+      fscUrl = ctVal;
+      fscUrlClickTagFound = true;
+    }
+    else if(!fscUrlClickTagFound) {
+      fscUrl = ctVal;
+    }
+    fv += "&" + ctParam + "=" + ctVal;
+  }
+}
+fv+='"';
+var bgo=(bg=="")?"":'<param name="bgcolor" value="#'+bg+'">';
+var bge=(bg=="")?"":' bgcolor="#'+bg+'"';
+function FSWin(){if((openWindow=="false")&&(id=="DCF0"))alert('openWindow is wrong.');
+var dcw = 800;
+var dch = 600;
+// IE
+if(!window.innerWidth)
+{
+  // strict mode
+  if(!(document.documentElement.clientWidth == 0))
+  {
+    dcw = document.documentElement.clientWidth;
+    dch = document.documentElement.clientHeight;
+  }
+  // quirks mode
+  else if(document.body)
+  {
+    dcw = document.body.clientWidth;
+    dch = document.body.clientHeight;
+  }
+}
+// w3c
+else
+{
+  dcw = window.innerWidth;
+  dch = window.innerHeight;
+}
+if(openWindow=="center"){winL=Math.floor((dcw-winW)/2);winT=Math.floor((dch-winH)/2);}window.open(unescape(fscUrl),id,"width="+winW+",height="+winH+",top="+winT+",left="+winL+",status=no,toolbar=no,menubar=no,location=no");}this.FSWin = FSWin;
+ua=navigator.userAgent;
+if(minV<=pVM&&(openWindow=="false"||(ua.indexOf("Mac")<0&&ua.indexOf("Opera")<0))){
+  var adcode='<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="'+id+'"'+FWH+'>'+
+    '<param name="movie" value="'+swf+'"><param name="flashvars" value='+fv+'><param name="quality" value="high"><param name="wmode" value="'+wmode+'"><param name="base" value="'+swf.substring(0,swf.lastIndexOf("/"))+'"><PARAM NAME="AllowScriptAccess" VALUE="'+dcallowscriptaccess+'">'+bgo+
+    '<embed src="'+swf+'" flashvars='+fv+bge+FWH+' type="application/x-shockwave-flash" quality="high" swliveconnect="true" wmode="'+wmode+'" name="'+id+'" base="'+swf.substring(0,swf.lastIndexOf("/"))+'" AllowScriptAccess="'+dcallowscriptaccess+'"></embed></object>';
+  if(('j'!="j")&&(typeof dclkFlashWrite!="undefined")){dclkFlashWrite(adcode);}else{document.write(adcode);}
+}else{
+  document.write('<a target="_blank" href="'+unescape(url)+'"><img src="'+gif+'"'+FWH+'border="0" alt="Advertisement" galleryimg="no"></a>');
+}}
+function getFlashVersion() {
+ var vfv="0,0,0";
+ try {
+  try {
+   var axo=new ActiveXObject("ShockwaveFlash.ShockwaveFlash.6");
+   try {
+    axo.AllowScriptAccess="always";
+   } catch(e) {
+    return "6";
+   }
+  } catch(e) {}
+  vfv=new ActiveXObject("ShockwaveFlash.ShockwaveFlash").GetVariable("$version");
+ } catch(e) {
+  try {
+   if(navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin) {
+    vfv=navigator.plugins["Shockwave Flash"].description;
+   }
+  } catch(e) {}
+ }
+ return vfv.replace(/\D+/g,",").match(/^,?(.+),?$/)[1].split(',').shift();
+}
+var DCid=(isNaN("280650842"))?"DCF2":"DCF280650842";
+var pVM=getFlashVersion();
+eval("function "+DCid+"_DoFSCommand(c,a){if(c=='openWindow')o"+DCid+".FSWin();}o"+DCid+"=new DCFlash('"+DCid+"',pVM);");
+//-->
+document.write('\n\x3cnoscript\x3e\x3ca target\x3d\x22_blank\x22 href\x3d\x22http://adclick.g.doubleclick.net/aclk?sa\x3dL\x26ai\x3dB6mx_i217U5GnCqSmigaFs4HYBQAAAAAQASAAOABQns_fpP7_____AViI9bgbYLv2rIPQCoIBCWNhLWdvb2dsZbIBD3d3dy52b2dlbGxhLmNvbcgBCagDAeAEApoFGAiMnUkQ6ayWMxjayOmFASCI9bgbKIXZbtoFAggBoAYf4AaF2W4\x26num\x3d0\x26sig\x3dAOD64_2RN0lmESfbXTHa6IQFix6jKfEu3g\x26client\x3d\x26adurl\x3dhttp://media.fastclick.net/w/click.here%3Fcid%3D553341%26mid%3D1083200%26m%3D3%26sid%3D88861%26c%3D0%26tp%3D7%26UD%3DiAHAjkKQAf3iIZgBnbYFoAEDqAEH8AEA%26upsid%3D797880908176%26forced_click%3Dhttps://www.westernunion.co.uk/gb/Home.page%253Fsrc%253DAffiliates_Partnerships_UK\x22\x3e\x3cimg src\x3d\x22http://s0.2mdn.net/1813637/1-UK_English_A2C_US_160x600.gif\x22 width\x3d\x22160\x22 height\x3d\x22600\x22 border\x3d\x220\x22 alt\x3d\x22Advertisement\x22 galleryimg\x3d\x22no\x22\x3e\x3c/a\x3e\x3c/noscript\x3e\n\n');

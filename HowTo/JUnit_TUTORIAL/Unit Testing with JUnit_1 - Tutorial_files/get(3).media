@@ -1,0 +1,3 @@
+{var dz=document;
+dz.writeln("<a href=\"http://media.fastclick.net/w/click.here?cid=545523&mid=1047858&m=6&sid=88861&c=0&tp=8&UD=iAGy_j_QAfOlIZgBnbYFoAEGqAEI8AEA&upsid=797880908176\" target=\"_blank\"><img src=\"http://cdn.fastclick.net/content/adv/cids/523/545523/media1047858.gif\" border=0 width=300 height=250 alt=\"\"></a><script type=\"text/javascript\">(function(){document.write('<span id=\"te-clearads-js-1683677108_8_1047858\"><sc'+'ript type=\"text/javascript\" src=\"'+((\"https:\"==document.location.protocol)?\"https\":\"http\")+'://choices.truste.com/ca?pid=valueclick01&aid=valueclickeu02&cid=2&c=1683677108_8_1047858&w=300&h=250&plc=tr&admarker=dynamic\"></scr'+'ipt></span>');}());<\/script>");
+dz.writeln("");}
